@@ -1,0 +1,32 @@
+/*!
+* ZnetDK, Starter Web Application for rapid & easy development
+* See official website http://www.znetdk.fr 
+* Copyright (C) 2015 Pascal MARTINEZ (contact@znetdk.fr)
+* License GNU GPL http://www.gnu.org/licenses/gpl-3.0.html GNU GPL
+* --------------------------------------------------------------------
+* ZnetDK Application Wizard Preview styles
+* File version: 1.0
+* Last update: 09/18/2015
+*/
+#zdk-appwiz-preview-view {
+    font-size: 1.2em;
+}
+
+#zdk-appwiz-preview-view fieldset {
+    min-width:590px;
+}
+
+#zdk-appwiz-preview-view ul {
+    line-height: 27px;
+}
+
+#zdk-appwiz-preview-view .pui-fieldset-content {
+    position:relative;
+}
+
+#zdk-appwiz-preview-view img {
+    position:absolute;
+    right:0px;
+    top:-15px;
+    width:110px;
+}

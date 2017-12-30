@@ -1,0 +1,221 @@
+/*!
+* ZnetDK, Starter Web Application for rapid & easy development
+* See official website http://www.znetdk.fr 
+* Copyright (C) 2015 Pascal MARTINEZ (contact@znetdk.fr)
+* License GNU GPL http://www.gnu.org/licenses/gpl-3.0.html GNU GPL
+* --------------------------------------------------------------------
+* General form styles
+* File version: 1.5
+* Last update: 12/30/2016
+*/
+.pui-dialog-content > form {
+    padding-top:3px;
+}
+
+form > .pui-fieldset {
+    margin-top:5px;
+}
+
+form > .pui-fieldset > .pui-fieldset-legend {
+    padding:0 10px;
+}
+
+.zdk-form-entry{
+    margin-bottom:5px;
+}
+
+/*Label styles and positions */
+.zdk-form-entry > label {
+    display:inline-block;
+    width:108px;
+    text-align:right;
+    margin-right:7px;
+}
+
+.zdk-form-entry label.zdk-align-top {
+    vertical-align:top;
+    margin-top:2px;
+}
+
+.zdk-form-entry label.zdk-required:before { 
+    content:" * ";
+    color:red;
+}
+
+div.zdk-inputfile, div.zdk-textvalue, div.zdk-radiobuttongroup, div.zdk-multiupload {
+    display:inline-block;
+    width: 186px;
+}
+
+div.zdk-inputhtml {
+    display:inline-block;
+    overflow:auto;
+    height:45px;
+}
+
+div.zdk-inputhtml a,
+div.zdk-inputhtml a:hover,
+div.zdk-inputhtml a:link,
+div.zdk-inputhtml a:visited {
+    color: #0000FF; 
+    text-decoration: underline;
+}
+
+div.zdk-textvalue {
+    font-weight: bold;
+}
+/* Inputfile widget */
+div.zdk-inputfile > span {
+    display:block;
+    padding: 5px 0;
+    font-style: italic;
+    width: 190px;
+}
+
+div.zdk-inputfile > img {
+    display:block;
+    margin-bottom:5px;
+    max-width: 160px;
+    max-height: 120px;
+}
+
+/* Multiupload widget*/
+.zdk-multiupload-files > div {
+    padding: 5px 0 0;
+    display: inline-block;
+}
+
+.zdk-multiupload-filename {
+    font-style: italic;
+    padding-right: 3px;
+}
+
+a.zdk-multiupload-remove-link {
+    color: #ff0000;
+}
+
+#zdk-login-dialog div.zdk-radiobuttongroup {
+    width:210px;
+}
+
+div.zdk-radiobuttongroup > table {
+    border-spacing: 0;
+}
+
+div.zdk-radiobuttongroup .pui-radiobutton {
+    margin: 0 4px 1px 0;
+}
+
+div.zdk-radiobuttongroup td {
+    padding:0 0 2px 0;
+}
+
+div.zdk-radiobuttongroup label {
+    margin-right: 5px;
+}
+
+.zdk-form-entry > label.zdk-tree-label {
+    margin-right:3px;
+    vertical-align: top;
+}
+
+/* Specific styles for input elements */
+.zdk-form-entry .pui-inputtext, .zdk-form-entry textarea {
+    width:176px;
+}
+
+.zdk-form-entry .pui-chkbox+span {
+    position:relative;
+    top:-4px;
+}
+
+.zdk-form-entry .pui-listbox {
+    width:180px;
+    height:75px;
+    display:inline-block;
+}
+
+.zdk-form-entry .pui-tree {
+    width:185px;
+    height:130px;
+    overflow:auto;
+    display:inline-block;
+}
+
+.zdk-form-entry .pui-tree > .pui-tree-container {
+    overflow:initial;
+}
+
+.pui-inputtext.ui-state-focus.znetdk_error,
+.pui-dropdown.ui-state-focus.znetdk_error,
+.zdk-inputfile > .pui-button.ui-state-focus.znetdk_error,
+.zdk-multiupload > .pui-button.ui-state-focus.znetdk_error {
+    border:2px solid red;
+    -moz-box-shadow: 0px 0px 5px red, inset 0 2px 2px #8f8f8f;
+    -webkit-box-shadow: 0px 0px 5px red, inset 0 2px 2px #8f8f8f;
+    box-shadow: 0px 0px 5px red, inset 0 2px 2px #8f8f8f;
+}
+
+.zdk-form-buttonpane {
+    background-image: none;
+    border-width: 1px 0 0;
+    margin: 0;
+    padding: 0.3em 1em 0.5em 0.4em;
+    text-align: left;
+}
+
+.zdk-form-buttonpane button {
+    cursor: pointer;
+    margin: 0.5em 0.4em 0.5em 0;
+}
+
+/* ZnetDK Action bar */
+.zdk-action-bar {
+    margin-bottom:2px;
+}
+
+.zdk-buttons, .zdk-select-rows, .zdk-select-rows-label,
+.zdk-select-rows > .pui-dropdown {
+    float:left;
+}
+.zdk-filter-rows {
+    float:right;
+}
+
+.zdk-buttons, .zdk-select-rows, .zdk-filter-rows {
+    margin-top:4px;
+}
+
+.zdk-filter-rows .zdk-bt-clear, .zdk-filter-rows .zdk-bt-search {
+    margin: 0 0 0 2px;
+    position: relative;
+    top: -1px;
+}
+
+.zdk-select-rows {
+    margin-left:15px;
+}
+.zdk-select-rows-label {
+    margin: 5px;
+}
+
+.zdk-buttons > button {
+    margin-right:5px;
+}
+
+/* ZnetDK datatable */
+.zdk-datatable {
+    margin-top:10px;
+}
+
+.zdk-datatable td > span.ui-icon-with-value {
+    position: absolute;
+}
+
+.zdk-datatable td > span.ui-cell-value {
+    margin-left: 20px;
+}
+
+.zdk-datatable td > span.fa-cell-value {
+    margin-left: 5px;
+}

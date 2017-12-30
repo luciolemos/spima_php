@@ -1,0 +1,12 @@
+# ZnetDK, Starter Web Application for rapid & easy development
+# See official website http://www.znetdk.fr 
+# (C) 2015 Pascal MARTINEZ (contact@znetdk.fr)
+# License GNU GPL http://www.gnu.org/licenses/gpl-3.0.html GNU GPL
+# --------------------------------------------------------------------
+# Apache configuration file for the directory /engine/core
+#
+# File version: 1.0
+# Last update: 09/18/2015 
+#
+Order deny,allow
+Deny from all

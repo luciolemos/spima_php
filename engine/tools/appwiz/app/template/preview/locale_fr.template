@@ -1,0 +1,50 @@
+<?php
+/**
+* ZnetDK, Starter Web Application for rapid & easy development
+* See official website http://www.znetdk.fr
+* ------------------------------------------------------------
+* Custom english labels of your application 
+* YOU CAN FREELY CUSTOMIZE THE CONTENT OF THIS FILE
+*/
+
+/* General labels */
+define('LC_PAGE_TITLE', %LC_PAGE_TITLE%);
+
+/* Heading labels */
+define('LC_HEAD_TITLE', %LC_HEAD_TITLE%);
+define('LC_HEAD_SUBTITLE', %LC_HEAD_SUBTITLE%);
+
+/* Heading images */
+define('LC_HEAD_IMG_LOGO', %LC_HEAD_IMG_LOGO%);
+
+/* Footer labels */
+define('LC_FOOTER_LEFT', %LC_FOOTER_LEFT%);
+define('LC_FOOTER_CENTER', %LC_FOOTER_CENTER%);
+define('LC_FOOTER_RIGHT', %LC_FOOTER_RIGHT%);
+
+/* Menu item labels */
+define('LA_MENU_PREVIEW','Aperçu');
+define('LA_MENU_THEMES','Thèmes');
+define('LA_MENU_WIDGETS','Widgets');
+define('LA_MENU_MENUX','Menu Z');
+define('LA_MENU_SUBMENU1','Sous-menu Z1');
+define('LA_MENU_SUBMENU2','Sous-menu Z2');
+define('LA_MENU_SUBMENU21','Sous-menu Z21');
+define('LA_MENU_SUBMENU22','Sous-menu Z22');
+define('LA_MENU_SUBMENU3','Sous-menu Z3');
+
+/* Preview page labels */
+define('LA_PREVIEW_WELCOME',"Bienvenue dans l'aperçu de l'application ZnetDK...");
+define('LA_PREVIEW_LEGEND1','Voici un aperçu de votre application ZnetDK comprenant :');
+define('LA_PREVIEW_ITEM1','Votre <strong>logo</strong> et <strong>libellés</strong> affichés sur la bannière et en pied de page,');
+define('LA_PREVIEW_ITEM2',"Le thème des widgets configuré à <q><strong>" . CFG_THEME . "</strong></q>,");
+define('LA_PREVIEW_ITEM3','Le modèle de page paramétré à <q><strong>'. ucfirst(CFG_PAGE_LAYOUT) . '</strong></q>.');
+define('LA_PREVIEW_LEGEND2','Vous pouvez également depuis cette application :');
+define('LA_PREVIEW_ITEM4',"Expérimenter les <strong> autres thèmes de widget</strong>: cliquez sur le menu <a href='#' onclick=\"znetdk.showMenuView('try_themes');\">".LA_MENU_THEMES."</a>,");
+define('LA_PREVIEW_ITEM5',"Voir les <strong>widgets PrimeUI</strong> en action: cliquez sur le menu <a href='#' onclick=\"znetdk.showMenuView('check_widgets');\">".LA_MENU_WIDGETS."</a>,");
+define('LA_PREVIEW_ITEM6','Naviguer à travers les menus à <strong>2</strong> ou <strong>3 niveaux</strong> (uniquement pour le modèle de page <q>Office</q>) : voir <strong>Menu Z</strong>.');
+
+/* Menu Z labels */
+define('LA_MENUZ_COMMON',"Ce sous-menu est configuré dans le script <strong>menu.php</strong> de l'application.");
+define('LA_MENUZ_S2','Cette vue est seulement visible depuis le modèle de page <strong>Classic</strong> (2 niveaux de menu).');
+define('LA_MENUZ_S21_S22','Il est seulement visible depuis le modèle de page <q><strong>Office</strong></q> (les menus de plus de 2 niveaux sont supportés).');

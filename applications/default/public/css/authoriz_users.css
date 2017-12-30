@@ -1,0 +1,95 @@
+/*!
+* ZnetDK, Starter Web Application for rapid & easy development
+* See official website http://www.znetdk.fr 
+* Copyright (C) 2015 Pascal MARTINEZ (contact@znetdk.fr)
+* License GNU GPL http://www.gnu.org/licenses/gpl-3.0.html GNU GPL
+* --------------------------------------------------------------------
+* Authorizations users view specific styles
+* File version: 1.0
+* Last update: 09/17/2015
+*/
+#znetdk_users_datatable {
+	clear:left;
+	margin-top:10px;
+}
+
+#znetdk_users_datatable tr > td:first-of-type,
+#znetdk_users_datatable thead > th:first-of-type {
+	max-width: 120px;
+	width:120px;
+	text-align:center;
+}
+
+#znetdk_users_datatable tr > td:nth-of-type(2),
+#znetdk_users_datatable thead > th:nth-of-type(2) {
+	max-width: 200px;
+	text-align:left;
+}
+
+#znetdk_users_datatable tr > td:nth-of-type(2),
+#znetdk_users_datatable tr > td:nth-of-type(3),
+#znetdk_users_datatable tr > td:nth-of-type(6) {
+    text-overflow: ellipsis;
+}
+
+#znetdk_users_datatable tr > td:nth-of-type(3),
+#znetdk_users_datatable thead > th:nth-of-type(3) {
+	max-width: 200px;
+	text-align:left;
+}
+
+#znetdk_users_datatable tr > td:nth-of-type(4),
+#znetdk_users_datatable thead > th:nth-of-type(4) {
+	max-width: 65px;
+	width: 65px;
+	text-align:center;
+}
+
+#znetdk_users_datatable tr > td:nth-of-type(5),
+#znetdk_users_datatable thead > th:nth-of-type(5) {
+	max-width: 100px;
+	width: 100px;
+	text-align:center;
+}
+
+#znetdk_users_datatable tr > td:nth-of-type(6),
+#znetdk_users_datatable thead > th:nth-of-type(6) {
+	max-width: 200px;
+	text-align:left;
+}
+
+#znetdk_user_dialog .zdk-form-entry > label {
+	width:102px;
+}
+
+#znetdk_user_dialog form input[name=user_email] {
+	width:240px;
+}
+
+#znetdk_user_dialog form > .pui-fieldset:first-of-type {
+	width:638px;
+	height:52px;
+}
+
+#znetdk_user_dialog form > .pui-fieldset:first-of-type .zdk-form-entry:first-of-type{
+	float:left;
+}
+
+#znetdk_user_dialog form > .pui-fieldset:first-of-type .zdk-form-entry:nth-of-type(2) > label{
+	width:70px;
+}
+
+#znetdk_user_dialog form > .pui-fieldset:nth-of-type(2) {
+	width:310px;
+	height:160px;
+	float:left;
+}
+
+#znetdk_user_dialog form > .pui-fieldset:nth-of-type(3) {
+	width:300px;
+	height:160px;
+}
+
+#znetdk_user_dialog.pui-dialog .pui-dialog-buttonpane {
+	border-width:0;
+}

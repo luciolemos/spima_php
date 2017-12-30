@@ -1,0 +1,29 @@
+# ZnetDK, Starter Web Application for rapid & easy development
+# See official website http://www.znetdk.fr 
+# (C) 2015 Pascal MARTINEZ (contact@znetdk.fr)
+# License GNU GPL http://www.gnu.org/licenses/gpl-3.0.html GNU GPL
+# --------------------------------------------------------------------
+# Apache configuration file for ZnetDK
+#
+# File version: 1.1 
+# Last update: 01/19/2016
+#
+# Default file returned when only domain name is requested
+DirectoryIndex index.php
+
+# Don't show directory listings for URLs which map to a directory.
+Options -Indexes
+
+# HTTP errors 403 and 404 are processed by index.php
+ErrorDocument 403 /znetdk/index.php?control=httperror&action=403
+ErrorDocument 404 /znetdk/index.php?control=httperror&action=404
+
+# Fontawesome fix for deployment over the SSL protocol
+<FilesMatch "\.(eot|woff|woff2|svg|ttf)$">
+FileETag None
+<ifModule mod_headers.c>
+Header unset Cache-Control
+Header unset Pragma
+Header unset Expires
+</ifModule>
+</FilesMatch>

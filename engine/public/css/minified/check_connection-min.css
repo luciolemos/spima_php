@@ -1,0 +1,10 @@
+/*!
+* ZnetDK, Starter Web Application for rapid & easy development
+* See official website http://www.znetdk.fr 
+* Copyright (C) 2015 Pascal MARTINEZ (contact@znetdk.fr)
+* License GNU GPL http://www.gnu.org/licenses/gpl-3.0.html GNU GPL
+* --------------------------------------------------------------------
+* Styles for the ZnetDK core view 'check_connection.php'
+* File version: 1.0
+* Last update: 09/17/2015
+*/#zdk-check-database ul{line-height:27px}#zdk-check-database span.title{padding:2px 4px;margin-right:4px}#zdk-check-database .label{font-weight:bold;color:red}#zdk-check-database .message{font-style:italic;color:red}span.success{color:green}span.failed{color:red}

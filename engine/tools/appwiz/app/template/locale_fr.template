@@ -1,0 +1,28 @@
+<?php
+/**
+* ZnetDK, Starter Web Application for rapid & easy development
+* See official website http://www.znetdk.fr
+* ------------------------------------------------------------
+* Custom english labels of your application 
+* YOU CAN FREELY CUSTOMIZE THE CONTENT OF THIS FILE
+*/
+
+/* General labels */
+define('LC_PAGE_TITLE', %LC_PAGE_TITLE%);
+
+/* Heading labels */
+define('LC_HEAD_TITLE', %LC_HEAD_TITLE%);
+define('LC_HEAD_SUBTITLE', %LC_HEAD_SUBTITLE%);
+
+/* Heading images */
+define('LC_HEAD_IMG_LOGO', %LC_HEAD_IMG_LOGO%);
+
+/* Footer labels */
+define('LC_FOOTER_LEFT', %LC_FOOTER_LEFT%);
+define('LC_FOOTER_CENTER', %LC_FOOTER_CENTER%);
+define('LC_FOOTER_RIGHT', %LC_FOOTER_RIGHT%);
+
+/* Menu item labels */
+define('LA_MENU_HOME','Bienvenue');
+define('LA_MENU_THEMES','Thèmes');
+define('LA_MENU_WIDGETS','Widgets');

@@ -1,0 +1,195 @@
+/*!
+* ZnetDK, Starter Web Application for rapid & easy development
+* See official website http://www.znetdk.fr 
+* Copyright (C) 2015 Pascal MARTINEZ (contact@znetdk.fr)
+* License GNU GPL http://www.gnu.org/licenses/gpl-3.0.html GNU GPL
+* --------------------------------------------------------------------
+* ZnetDK Application Wizard specific styles
+* File version: 1.0
+* Last update: 09/18/2015
+*/
+
+/* Layout overload */
+img#language_button {
+    margin-bottom: 2px;
+}
+
+div#content {
+    top:110px;
+}
+
+#zdk-classic-menu>.pui-tabview-nav {
+    width:14%;
+}
+
+#zdk-classic-menu>.pui-tabview-panels {
+    width:85%;
+}
+
+#zdk-classic-menu>.pui-tabview-panels>.pui-tabview-panel>.pui-panel>.pui-panel-content {
+    height:88%;
+}
+
+/* Common styles */
+p.left {
+    float:left;
+}
+
+p.teaser {
+    font-size:1.3em;
+}
+
+span.zdkappwiz-field-desc, span.zdkappwiz-field-desc-s2
+, span.zdkappwiz-field-desc-s31, span.zdkappwiz-field-desc-s32 {
+    font-style: italic;
+    color:#dfd9c3;
+}
+
+span.zdkappwiz-field-desc {
+    margin-left:10px;
+}
+
+.zdk-form-entry>label {
+    width: 200px;
+}
+
+.zdk-form-entry .pui-inputtext {
+    width:30%;
+    max-width:300px;
+}
+
+#zdkappwiz-img-step1, #zdkappwiz-img-step2, #zdkappwiz-img-step3, #zdkappwiz-img-step4 {
+    float:left;
+    width:14%;
+    max-width: 128px;
+    margin-top: 8px;
+    margin-left: 4%;
+
+}
+
+#zdkappwiz-form-step1, #zdkappwiz-form-step2, #zdkappwiz-form-step3, #zdkappwiz-form-step4 {
+    float:left;
+    width:82%
+}
+
+/* Welcome page */
+#zdkappwiz-img-wizard {
+    float:left;
+    margin:15px 10px 200px 0;
+}
+
+span.zdkappwiz-step-desc {
+    line-height: 25px;
+}
+
+#menu-welcome button[data-zdk-step] {
+    width:190px;
+    text-align:left;
+}
+
+/* Step 2 page (theme) */
+div.zdk-inputfile img {
+    max-height: 90px;
+    max-width: 90px;
+    margin-bottom: 0;
+    margin-left: 2px;
+}
+
+div.zdk-inputfile img, #zdkappwiz-img-theme-preview {
+    position: absolute;
+    top:-8px;
+    left:420px;
+    margin-left:3%;
+}
+
+#zdkappwiz-fieldset-file .zdk-form-entry,
+#zdkappwiz-fieldset-theme .zdk-form-entry,
+#zdkappwiz-fieldset-layout .zdk-form-entry,
+#zdkappwiz-fieldset-creating .zdk-form-entry {
+    position:relative;    
+}
+
+#zdkappwiz-fieldset-file, #zdkappwiz-fieldset-theme {
+    height:95px;
+}
+
+img.zdkappwiz-img-theme {
+    height: 25px;
+}
+
+span.zdkappwiz-lbl-theme {
+    float:right;
+    padding-top: 6px;
+}
+
+span.zdkappwiz-field-desc-s2 {
+    margin: 6px 0 0 13px;
+    display: block;
+    width: 68%;
+}
+
+#zdkappwiz-info-classic, #zdkappwiz-info-office {
+    position: absolute;
+    top: 2px;
+    left: 372px;
+}
+
+/* Step 3 page (DB access) */
+#zdkappwiz-form-step3 div.zdk-radiobuttongroup,
+#zdkappwiz-form-step4 div.zdk-radiobuttongroup {
+    width:330px;
+}
+
+span.zdkappwiz-field-desc-s31 {
+    position: absolute;
+    top: 2px;
+    left: 80%;
+}
+
+span.zdkappwiz-field-desc-s32 {
+    position: relative;
+    top: -4px;
+    left: 10px;
+}
+
+/* Step 4 page (generate) */
+label.zdkappwiz-missing {
+    color:red;
+}
+.zdk-form-entry > .pui-inputtext.zdkappwiz-missing {
+    border:2px solid red;
+    -moz-box-shadow: 0px 0px 5px red, inset 0 2px 2px #8f8f8f;
+    -webkit-box-shadow: 0px 0px 5px red, inset 0 2px 2px #8f8f8f;
+    box-shadow: 0px 0px 5px red, inset 0 2px 2px #8f8f8f;
+}
+
+#zdkappwiz-bt-generate {
+    position:fixed;
+    top:180px;
+    right:19%;
+}
+
+#zdkappwiz-img-report {
+    float:right;
+    margin:5px 15px 0 0;
+    width:64px;
+}
+
+#zdkappwiz-report-table tr > td:first-of-type,
+#zdkappwiz-report-table thead > th:first-of-type {
+    width:20px;
+    text-align:center;
+}
+
+#zdkappwiz-report-table tr > td:nth-of-type(2),
+#zdkappwiz-report-table thead > th:nth-of-type(2) {
+    width:120px;
+}
+
+#zdkappwiz-report-table tr > td:nth-of-type(3),
+#zdkappwiz-report-table thead > th:nth-of-type(3) {
+    width:380px;
+    overflow:visible;
+    white-space: normal;
+}
+

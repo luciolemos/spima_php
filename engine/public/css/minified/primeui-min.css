@@ -1,0 +1,10 @@
+/*!
+* ZnetDK, Starter Web Application for rapid & easy development
+* See official website http://www.znetdk.fr 
+* Copyright (C) 2015 Pascal MARTINEZ (contact@znetdk.fr)
+* License GNU GPL http://www.gnu.org/licenses/gpl-3.0.html GNU GPL
+* --------------------------------------------------------------------
+* Override of the PrimeUI widget styles
+* File version: 1.2
+* Last update: 03/03/2016
+*/.ui-widget{font-size:12px !important}.ui-widget-overlay{opacity:.50}.ui-state-default a:hover,.ui-state-default a:active{text-decoration:underline}.pui-button-icon-only .pui-icon,.pui-button-text-icon-left .pui-icon,.pui-button-text-icon-right .pui-icon{position:absolute;top:50%;margin-top:-6px}.pui-menuitem-link .pui-icon{margin-top:2px}.pui-menu .pui-menuitem-link .pui-menuitem-icon{margin-right:2px}.pui-dropdown-label.ui-state-disabled{opacity:.65}

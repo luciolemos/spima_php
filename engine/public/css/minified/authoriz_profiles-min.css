@@ -1,0 +1,10 @@
+/*!
+* ZnetDK, Starter Web Application for rapid & easy development
+* See official website http://www.znetdk.fr 
+* Copyright (C) 2015 Pascal MARTINEZ (contact@znetdk.fr)
+* License GNU GPL http://www.gnu.org/licenses/gpl-3.0.html GNU GPL
+* --------------------------------------------------------------------
+* ZnetDK Authorizations profiles view specific styles
+* File version: 1.0
+* Last update: 09/17/2015
+*/#znetdk_profiles_datatable{clear:left;margin-top:10px}#znetdk_profiles_datatable tr>td:first-of-type,#znetdk_profiles_datatable thead>th:first-of-type{max-width:120px;width:120px;text-align:center}#znetdk_profiles_datatable tr>td:nth-of-type(2),#znetdk_profiles_datatable thead>th:nth-of-type(2){max-width:300px;width:300px;text-align:left;text-overflow:ellipsis}#znetdk_profiles_datatable tr>td:nth-of-type(3),#znetdk_profiles_datatable thead>th:nth-of-type(3){text-align:left;overflow:visible;white-space:normal}#znetdk_profile_dialog input[name=profile_name]{width:247px}#znetdk_profile_dialog textarea[name=profile_description]{width:247px}#znetdk_profile_tree{width:254px}

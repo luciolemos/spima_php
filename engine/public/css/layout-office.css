@@ -1,0 +1,101 @@
+/*!
+* ZnetDK, Starter Web Application for rapid & easy development
+* See official website http://www.znetdk.fr 
+* Copyright (C) 2015 Pascal MARTINEZ (contact@znetdk.fr)
+* License GNU GPL http://www.gnu.org/licenses/gpl-3.0.html GNU GPL
+* --------------------------------------------------------------------
+* Styles for the template "office"
+* File version: 1.0
+* Last update: 09/17/2015
+*/
+div#banner {
+	height:36px;
+}
+td#banner_left {
+	max-width:5px;
+}
+img#banner_logo {
+	margin:0 20px 0 10px;
+	height:32px;
+}
+td#banner_middle {
+	max-width:20px;
+}
+div#banner h1 {
+	font-size:1.5em;
+	font-weight:bold;
+	margin:0 0 4px;
+	text-shadow:1px 1px 1px lightgrey;
+}
+td#banner_right {
+	max-width:45px;
+	text-align:right;
+}
+#zdk-language-area, #zdk-connection-area, #zdk-help-area {
+	float:right;
+	margin-right:25px;
+	margin-top:5px;
+}
+#zdk-logout img {
+	margin-left:15px;
+} 
+#zdk-language-area > form {
+	position:relative;
+	bottom:4px;
+}
+div#content {
+	min-height:200px;
+	top:60px;
+	bottom:10px;
+}
+
+@media (max-width: 808px) {
+    div#content {
+            top:50px;
+            bottom:0px;
+    }
+}
+
+/* Vertical menu styles */
+#zdk-office-menu > .pui-menu, #zdk-office-menu > .ui-dialog , .zdk-win-manager > .pui-menu {
+	box-shadow:2px 2px 2px #dfd9c3;
+	border:0 none;
+}
+.zdk-win-manager {
+	margin-top:15px;
+}
+
+#zdk-win-container {
+	position:absolute;
+	left:170px;
+	right:0;
+	top:0;
+	bottom:0;
+}
+
+@media (max-width: 808px) {
+    #zdk-win-container {
+	left:150px;
+    }
+    .pui-menu {
+        width:130px;
+    }
+}
+
+#zdk-win-container > .pui-dialog {
+	position:absolute;
+}
+/* ******************** */
+#zdk-ajax-loading {
+	position:absolute;
+	right:20px;
+	bottom:10px;
+	z-index:3000;
+}
+
+/* zdk-messages position */
+#zdk-messages.pui-growl {
+	top:inherit;
+	bottom:20px;
+}
+/* ******************** */

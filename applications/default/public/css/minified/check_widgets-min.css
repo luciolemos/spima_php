@@ -1,0 +1,10 @@
+/*!
+* ZnetDK, Starter Web Application for rapid & easy development
+* See official website http://www.znetdk.fr 
+* Copyright (C) 2015 Pascal MARTINEZ (contact@znetdk.fr)
+* License GNU GPL http://www.gnu.org/licenses/gpl-3.0.html GNU GPL
+* --------------------------------------------------------------------
+* Styles for the ZnetDK core view 'check_widgets.php'
+* File version: 1.0
+* Last update: 09/17/2015
+*/#zdk_check_widgets_teaser{font-size:1.1em;text-align:center}#widgets-main-wrapper{padding-top:5px;min-width:615px;max-width:625px;margin-left:auto;margin-right:auto}#menu-check_widgets .widget-wrapper,#znetdk-check_widgets-view .widget-wrapper{margin:10px 5px 5px 0}#menu-check_widgets .left,#znetdk-check_widgets-view .left{float:left}#example-datepicker{margin-top:-10px}#example-fieldset{width:360px;float:left;height:166px}#example-inputtext,#example-textarea{max-width:112px}.pui-picklist .pui-picklist-list{height:151px}.pui-picklist .pui-picklist-buttons{margin:15px 10px 0}#example-tree.widget-wrapper{width:247px;margin-right:0}#example-datatable{width:440px}#example-menu.widget-wrapper{margin-right:0}

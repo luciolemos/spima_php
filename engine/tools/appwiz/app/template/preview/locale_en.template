@@ -1,0 +1,50 @@
+<?php
+/**
+* ZnetDK, Starter Web Application for rapid & easy development
+* See official website http://www.znetdk.fr
+* ------------------------------------------------------------
+* Custom english labels of your application 
+* YOU CAN FREELY CUSTOMIZE THE CONTENT OF THIS FILE
+*/
+
+/* General labels */
+define('LC_PAGE_TITLE', %LC_PAGE_TITLE%);
+
+/* Heading labels */
+define('LC_HEAD_TITLE', %LC_HEAD_TITLE%);
+define('LC_HEAD_SUBTITLE', %LC_HEAD_SUBTITLE%);
+
+/* Heading images */
+define('LC_HEAD_IMG_LOGO', %LC_HEAD_IMG_LOGO%);
+
+/* Footer labels */
+define('LC_FOOTER_LEFT', %LC_FOOTER_LEFT%);
+define('LC_FOOTER_CENTER', %LC_FOOTER_CENTER%);
+define('LC_FOOTER_RIGHT', %LC_FOOTER_RIGHT%);
+
+/* Menu item labels */
+define('LA_MENU_PREVIEW','Preview');
+define('LA_MENU_THEMES','Themes');
+define('LA_MENU_WIDGETS','Widgets');
+define('LA_MENU_MENUX','Menu Z');
+define('LA_MENU_SUBMENU1','Sub-menu Z1');
+define('LA_MENU_SUBMENU2','Sub-menu Z2');
+define('LA_MENU_SUBMENU21','Sub-menu Z21');
+define('LA_MENU_SUBMENU22','Sub-menu Z22');
+define('LA_MENU_SUBMENU3','Sub-menu Z3');
+
+/* Preview page labels */
+define('LA_PREVIEW_WELCOME','Welcome to the ZnetDK application preview...');
+define('LA_PREVIEW_LEGEND1','Here is a preview of your ZnetDK application with:');
+define('LA_PREVIEW_ITEM1','Your <strong>logo</strong> and <strong>labels</strong> displayed on the banner and on the footer,');
+define('LA_PREVIEW_ITEM2',"The widget's theme set to <q><strong>" . CFG_THEME . "</strong></q>,");
+define('LA_PREVIEW_ITEM3','The page layout set to <q><strong>'. ucfirst(CFG_PAGE_LAYOUT) . '</strong></q>.');
+define('LA_PREVIEW_LEGEND2','From this application, you can also:');
+define('LA_PREVIEW_ITEM4',"Experiment <strong>other widget's themes</strong>: click on the <a href='#' onclick=\"znetdk.showMenuView('try_themes');\">".LA_MENU_THEMES."</a> menu,");
+define('LA_PREVIEW_ITEM5',"See the <strong>PrimeUI widgets</strong> in action: click on the <a href='#' onclick=\"znetdk.showMenuView('check_widgets');\">".LA_MENU_WIDGETS."</a> menu,");
+define('LA_PREVIEW_ITEM6','Navigate thru a <strong>2</strong> or <strong>3 levels</strong> (only <q>Office</q> layout) menu: see <strong>Menu Z</strong>.');
+
+/* Menu Z labels */
+define('LA_MENUZ_COMMON','This sub-menu is configured into the <strong>menu.php</strong> script of the application.');
+define('LA_MENUZ_S2','This view is only visible from the <strong>Classic</strong> page layout (2 levels menu).');
+define('LA_MENUZ_S21_S22','It is only visible from the <q><strong>Office</strong></q> page layout (menu with more than 2 levels is supported).');
